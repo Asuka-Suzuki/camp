@@ -1,1 +1,46 @@
 @charset "utf-8";
+
+/*===============================
+  全体設定
+================================*/
+
+.container {
+  width: 800px;
+  position: relative;
+}
+
+/*===============================
+  自己紹介
+================================*/
+
+.profile {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: 206px;
+  left: 42px;
+}
+
+.avatar {
+  width: 167px;
+  height: 167px;
+  margin-right: 16px;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.self-introduction {
+  width: 533px;
+  height: 64px;
+  font-size: 14px;
+}
+
+.self-introduction p {
+  margin: 0;
+}
